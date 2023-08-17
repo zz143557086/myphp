@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="__STATIC__/bootstrap/js/jquery-3.6.1.min.js"></script>
+    <link href="__STATIC__/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <script src="__STATIC__/bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="__STATIC__/icons-1.10.3/font/bootstrap-icons.css"/>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark row">
+    <div class="col-2">
+        <a class="navbar-brand text-white"  href="#"> 后台管理系统</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse col-10" id="navbarSupportedContent">
+        <form class="form-inline my-3  my-lg-0 w-100" >
+            <input class="form-control  w-75 bg-light" style="margin-left: 9%;"  type="search" placeholder="搜索" aria-label="Search">
+        </form>
+        <a class="navbar-brand text-secondary" href="#">退出登录</a>
+    </div>
+</nav>
+<div class="row  border-bottom bg-light" style="height: 700px;" >
+    <div class="col-3 border-right" >
+        <div class="nav flex-column nav-pills"  role="tablist" aria-orientation="vertical">
+            <button class="nav-link active"  data-toggle="pill" data-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                <i class="bi bi-badge-cc-fill">&nbsp;&nbsp;首页</i></button>
+            <button class="nav-link"  data-toggle="pill" data-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                <i class="bi bi-bag-dash-fill">&nbsp;&nbsp;订单管理</i></button>
+            <button class="nav-link"  data-toggle="pill" data-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                <i class="bi bi-bell">&nbsp;&nbsp;产品管理</i></button>
+            <button class="nav-link"  data-toggle="pill" data-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                <i class="bi bi-bookmarks-fill">&nbsp;&nbsp;库存管理</i></button>
+            <button class="nav-link"  data-toggle="pill" data-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                <i class="bi bi-boombox-fill">&nbsp;&nbsp;售后管理</i></button>
+            <button class="nav-link"  data-toggle="pill" data-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                <i class="bi bi-boxes">&nbsp;&nbsp;会员管理</i></button>
+
+        </div>
+    </div>
+    <div class="col-9">
+        <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active"  role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <div class="row " style="margin-top: 2%;">
+                    <div class="col-1"></div>
+                    <div class="col-10 border-bottom"><h3>数据分析</h3></div>
+                </div>
+                <div class=" row" style="margin-top:2%;height: 500px;">
+                    <div class="col-1"></div>
+                    <div class="col-10 bg-light border ">
+                        <div class="row" style="margin-left: 37px;margin-top: 20px;margin-right: 20px;">
+                            <div class="card " style="width: 12rem;margin-left: 10px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">移动端客服<i class="bi bi-browser-safari" style="margin-left: 25px;"></i></h5>
+                                    <p class="card-text"> on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card " style="width: 12rem;margin-left: 22px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title<i class="bi bi-c-circle-fill" style="margin-left: 45px;"></i></h5>
+                                    <p class="card-text"> on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card " style="width: 12rem;margin-left: 22px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title<i class="bi bi-bus-front-fill" style="margin-left: 45px;"></i></h5>
+                                    <p class="card-text"> on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card " style="width: 12rem;margin-left: 22px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title<i class="bi bi-calendar-x-fill" style="margin-left: 45px;"></i></h5>
+                                    <p class="card-text"> on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-left: 37px;margin-top: 20px;margin-right: 20px;">
+                            <div class="card " style="width: 12rem;margin-left: 10px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title<i class="bi bi-calendar4-week" style="margin-left: 45px;"></i></h5>
+                                    <p class="card-text"> on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card " style="width: 12rem;margin-left: 22px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title<i class="bi bi-calendar4-week" style="margin-left: 45px;"></i></h5>
+                                    <p class="card-text"> on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card " style="width: 12rem;margin-left: 22px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title<i class="bi bi-cart-check-fill" style="margin-left: 45px;"></i></h5>
+                                    <p class="card-text"> on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card " style="width: 12rem;margin-left: 22px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title<i class="bi bi-cassette" style="margin-left: 45px;"></i></h5>
+                                    <p class="card-text"> on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade"  role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+            <div class="tab-pane fade"  role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+            <div class="tab-pane fade"  role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+            <div class="tab-pane fade"  role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+            <div class="tab-pane fade"  role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+        </div>
+    </div>
+
+</div>
+<div class="d-flex justify-content-between bg-dark text-white f" style="height: 70px;text-align: center"><span>dshakdhas</span>
+    <span>{$name}</span>
+    <span>{$id}</span></div>
+</body>
+</html>

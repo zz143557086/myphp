@@ -5,35 +5,92 @@
 一个新闻网站
 一个投票系统
 
-#### 软件架构
-软件架构说明
+#### 文件介绍
 
+tp5.0/application/vote 是投票系统
 
-#### 安装教程
+tp5.0/application/news 是新闻系统
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+data/news.sql 是新闻的数据库
 
-#### 使用说明
+vote/news.sql 是投票的数据库
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 软件环境
 
-#### 参与贡献
+语言:php
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+框架:tp5
 
+前端ui是bootstrap
 
-#### 特技
+配置: 配置在自己的WWW下面就行  
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+![小皮配置](image/小皮配置.png)
+
+### 投票系统
+
+#### 介绍
+
+比赛管理:比赛的增删改查
+
+选手管理:选手的增删改查,可以更改选手的成绩，可以将选手加入现有的比赛
+
+评委管理:评委的增删改查，可以将评委加入现有的比赛
+
+用户管理:用户的增删改查
+
+报名管理:批准比赛
+
+选手报名:选手登录系统查看比赛选手选择报名比赛
+
+评委评分:小程序登录选择比赛对选手打分
+
+运行:管理员tp5.com/index.php/vote/admin/login
+
+用户tp5.com/index.php/vote/user/login
+
+#### 部分演示
+
+![比赛管理](image/比赛管理.png)
+
+![选手管理](image/选手管理.png)
+
+![评委管理](image/评委管理.png)
+
+![用户管理](image/用户管理.png)
+
+![用户报名比赛](image/用户报名比赛.png)
+
+![投票微信小程序页面](image/投票微信小程序页面.png)
+
+![评委选择比赛投票](image/评委选择比赛投票.png)
+
+![成绩确认](image/成绩确认.png)
+
+### 新闻系统
+
+#### 介绍
+
+新闻管理:新闻的增删改查,加入新闻时选择类别
+
+分类管理:对分类的增删改查
+
+广告管理:对广告的增删改查
+
+新闻获取:可以通过热门信息 搜索 分页 获取新闻,查看新闻详情
+
+运行:管理员:tp5.com/index.php/news/manager/adv
+
+用户:tp5.com/index.php/news/user/index
+
+#### 部分演示
+
+![新闻管理](image/新闻管理.png)
+
+![分类管理](image/分类管理.png)
+
+![广告管理](image/广告管理.png)
+
+![新闻详情](image/新闻详情.png)![新闻首页](image/新闻首页.png)
+
+![分类获取](image/分类获取.png)
